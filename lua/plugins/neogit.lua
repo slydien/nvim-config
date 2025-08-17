@@ -14,7 +14,7 @@ return {
   },
   config = function()
     require('neogit').setup {
-      kind = 'floating', -- opens neogit in a flating window
+      kind = 'replace', -- opens neogit in a flating window
       signs = {
         -- { CLOSED, OPENED }
         section = { '', '' },
